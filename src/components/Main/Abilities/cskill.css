@@ -1,0 +1,13 @@
+.rating{
+    display: flex;
+    justify-content: space-between;
+   padding: 5px 0;
+    
+}
+.rating h6{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.r_box{
+    margin-top: 2px;
+}

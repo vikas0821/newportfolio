@@ -1,0 +1,30 @@
+.project_box{
+    margin-top: 50px;
+    margin: auto;
+    width:90%;
+    background-color:var( --box-bg-color);
+    padding: 50px;
+    position: relative;
+    position: sticky;
+    top:0px;
+    
+}
+.project_box h1{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.483);
+    margin:auto;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+  
+}
+@media only screen and (max-width: 600px) {
+    .project_box {
+      position: static;
+      padding:40px 0px;
+      margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,30 @@
+.certi_box{
+    width:100%;
+    height: 100vh;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    position: sticky;
+    top: 0px;
+    padding-top: 2px;
+    background-color: whitesmoke;
+}
+.certi_box h1{
+    text-align: center;
+    font-size: 2.5rem;
+    width:280px;
+    text-align: center;
+    color: whitesmoke;
+    background-color:var( --box1-bg-color);
+    border-radius: 10px;
+    margin: 50px auto;
+}
+@media screen and (max-width: 768px) {
+    .certi_box{
+        padding-bottom: 0px;
+        position: static;
+        padding-top: 0px;
+    }
+    .certi_box h1{
+        margin: 20px auto;
+    }
+  }

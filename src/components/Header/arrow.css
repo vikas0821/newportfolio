@@ -1,0 +1,22 @@
+.arrow_box{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px 10px 0 0 ;
+    border: 2px solid rgb(255, 255, 255);
+    right: 10px;
+    bottom:0px;
+    width: 90px;
+    height:60px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.arrow_box i{
+    font-size: 2.5rem;    
+    
+}
+@media only screen and (max-width: 600px) {
+    .arrow_box{
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.skill_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill_box .right_skill{
+    margin:0 15px;
+}
+
+

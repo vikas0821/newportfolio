@@ -1,0 +1,10 @@
+footer{
+    border-top: 2px solid whitesmoke;
+    padding: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   background-color:var( --box1-bg-color);
+    color: whitesmoke;
+    text-align: center;
+}

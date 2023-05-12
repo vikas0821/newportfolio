@@ -1,0 +1,61 @@
+.ecard_box{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.e_left p{
+    margin-top: 20px;
+    text-align: right;
+    margin-right:50px ;
+}
+.e_right{
+    border-left: 2px solid var( --box1-bg-color);
+    height: 150px;
+}
+.e_right h4,.e_right p{
+    margin-left: 50px;
+
+}
+.e_right .circle{
+    width:20px;
+    height:20px;
+    background-color:var( --box1-bg-color);
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    bottom: 10px;
+    right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .ecard_box{
+        grid-template-columns: 1fr; 
+    }
+    .circle{
+        top: 0px;
+        right: 10px;
+    }
+    .e_right{
+       
+        height: auto;
+    }
+    .e_left{
+        border-left: 2px solid var( --box1-bg-color);
+        
+    }
+    .e_left p{
+        text-align: left; 
+        margin-left: 20px;  
+    }
+    .e_right .circle{
+      display: none;
+    }
+    .e_left .circle{
+        width:20px;
+        height:20px;
+        background-color:var( --box1-bg-color);
+        border-radius: 100%;
+        position: relative;
+        top: 42px;
+        right: 10px;
+    }
+}

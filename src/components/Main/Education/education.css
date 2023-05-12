@@ -1,0 +1,24 @@
+.e_container{
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    width:90%;
+    margin: auto;
+    margin-top: 100px;
+    padding:30px;
+}
+.e_container h1{
+    width:200px;
+    text-align: center;
+    background-color:var( --box1-bg-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: auto;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+   .e_container{
+    position: static;
+   }
+}

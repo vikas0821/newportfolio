@@ -1,0 +1,18 @@
+
+.header{
+    width:100%;
+    height: 100vh;
+    background: url('../Assest/image/hacker.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+header{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.593);
+}
+@media only screen and (max-width: 600px) {
+    .header{
+       position: relative;
+        height: 100vh;
+    }
+
+}

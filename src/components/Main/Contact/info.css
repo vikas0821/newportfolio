@@ -1,0 +1,12 @@
+.Info_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:400px;
+    text-align: justify;
+}
+@media screen and (max-width: 768px) {
+    .Info_box p{
+        font-size: 0.8rem;
+    }
+}

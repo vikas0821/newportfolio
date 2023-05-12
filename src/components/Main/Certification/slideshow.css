@@ -1,0 +1,13 @@
+.img_slider{
+    width:50%;
+    margin: auto;
+}
+.img_slider img{
+    width:100%;
+    border:5px solid var(--box1-bg-color);
+}
+@media screen and (max-width: 768px) {
+    .img_slider{
+        width: 98%;
+    }
+  }
