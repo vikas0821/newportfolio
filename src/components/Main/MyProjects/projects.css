@@ -1,17 +1,27 @@
 .project_box{
-    margin-top: 50px;
+    /* border: 2px solid var( --box1-bg-color) ; */
     margin: auto;
     width:90%;
-    background-color:var( --box-bg-color);
-    padding: 50px;
-    position: relative;
-    position: sticky;
-    top:0px;
+    background-color:white;
+    color:var( --box1-bg-color);
+    margin: 50px auto;
+    padding-top: 10px;
+    box-shadow: 0 0 20px var( --box1-bg-color);
+
     
 }
+.video_proj{
+    margin: auto;
+    width:90%;
+    height:200px;
+}
+.video_proj video{
+    height: 100%;
+    width:100%;
+}
 .project_box h1{
+    background-color:var( --box1-bg-color);
     color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.483);
     margin:auto;
     width: 220px;
     text-align: center;

@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+font-family: 'Varela', sans-serif;
   /* overflow-x: hidden; */
 
 }
 
 :root {
-  --box1-bg-color: #0A4D68;
+  --box1-bg-color: #505e69;
   --box-bg-color:#05BFDB;
 }
 

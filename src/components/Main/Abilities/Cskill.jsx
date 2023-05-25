@@ -1,7 +1,7 @@
 import "./cskill.css"
 function Cskill(props) {
   return (
-    <div className="rating" data-aos={props.dataAos} data-aos-duration={props.dataAosDuration}>
+    <div className="rating">
     <h6>{props.title}</h6>
      <span className="r_box">
      <i className={props.r1}></i>

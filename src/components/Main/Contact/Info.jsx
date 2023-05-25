@@ -1,7 +1,7 @@
 import "./info.css"
-function Info(props) {
+function Info() {
   return (
-    <div className="Info_box" data-aos={props.dataAos}>
+    <div className="Info_box" >
        
         <h3>VIKAS KANNAUJIYA</h3>
         <p>175-h Shivpur Sahbajganj padri bazar, Gorakhpur, Uttar Pradesh-273014</p>

@@ -4,11 +4,11 @@ function Ecard(props) {
     <div className="ecard_box">
         <div className="e_left" >
         <div className="circle" > </div>
-            <p data-aos={props.dataAosR} data-aos-delay={props.dataAosDelayR}>{props.year}</p>
+            <p >{props.year}</p>
         </div>
         <div className="e_right" >
             <div className="circle" > </div>
-            <div data-aos={props.dataAosL} data-aos-delay={props.dataAosDelayL}>
+            <div >
               
               <h4>
                 {props.course}

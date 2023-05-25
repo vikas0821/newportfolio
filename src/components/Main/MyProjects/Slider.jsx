@@ -3,17 +3,22 @@ import web1 from"../../Assest/image/slide_img/daily.png"
 import web2 from"../../Assest/image/slide_img/fab.png"
 import web3 from"../../Assest/image/slide_img/crazy.png"
 import web4 from"../../Assest/image/slide_img/tindog.png"
+import web5 from"../../Assest/image/slide_img/movie.jpg"
+import web6 from"../../Assest/image/slide_img/weather.jpg"
 
 import { useState } from "react";
 function Slider() {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const slides = [
-    { id: 1, image: web1, alt: 'Image 1' },
-    { id: 2, image: web2 , alt: 'Image 2' },
+    
+    { id: 6, image: web6 , alt: 'Image 6' },
+    { id: 5, image: web5, alt: 'Image 5' },
+    { id: 1, image: web2, alt: 'Image 1' },
+    { id: 2, image: web1 , alt: 'Image 2' },
     { id: 3, image: web3 , alt: 'Image 3' },
     { id: 4, image: web4 , alt: 'Image 4' }
-
+    
   
   
   ];

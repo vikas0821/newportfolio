@@ -3,8 +3,6 @@
     height: 100vh;
     margin-top: 30px;
     padding-bottom: 100px;
-    position: sticky;
-    top: 0px;
     padding-top: 2px;
     background-color: whitesmoke;
 }
@@ -13,8 +11,8 @@
     font-size: 2.5rem;
     width:280px;
     text-align: center;
-    color: whitesmoke;
     background-color:var( --box1-bg-color);
+    color: whitesmoke;
     border-radius: 10px;
     margin: 50px auto;
 }

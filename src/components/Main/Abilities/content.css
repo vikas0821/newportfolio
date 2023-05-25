@@ -9,6 +9,9 @@
     text-align: left;
     padding-bottom: 10px;
 }
+.solidstar:hover{
+   color: yellow;
+}
 @media only screen and (max-width: 600px) {
    .content_box{
     width: 100%;

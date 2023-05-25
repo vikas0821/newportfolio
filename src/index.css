@@ -1,5 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap'); */
+/* @import AOS from 'aos'; */
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import 'aos/dist/aos.css'; 
+/* // You can also use <link> for styles
+// .. */
+/* AOS.init(); */
 body{
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Merienda', cursive;

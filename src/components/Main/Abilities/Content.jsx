@@ -1,7 +1,7 @@
 import Cskill from "./Cskill"
 import "./content.css"
 function Content(props) {
-    const r1="fa-solid fa-star";
+    const r1="fa-solid fa-star solidstar";
     const r4="fa-regular fa-star"
   return (
     <div className="content_box">
@@ -11,20 +11,20 @@ function Content(props) {
       {props.contentTitle==="Coding"
       &&
       <>
-      <Cskill dataAos="fade-right" dataAosDuration="1000"  title="HTML/5" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="1200" title="CSS/3 (+ SASS)" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="1400" title="Tailwind 3.x" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="1600" title="BootStrap" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="1800" title="Javascript" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="2000" title="JQuery" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="2200" title="React" r1={r1}  r4={r1}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="2400" title="NodeJS / Express" r1={r1}  r4={r4}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="2600" title="MySQL" r1={r1}  r4={r1}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="2800" title="mongoDB" r1={r1}  r4={r1}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="3000" title="Mongoes" r1={r1}  r4={r4}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="3200" title="JSON / XML" r1={r1}  r4={r1}  r5={r1}/>
-      <Cskill dataAos="fade-right" dataAosDuration="3400" title="AWS / Google Cloud" r1={r1}  r4={r4}  r5={r4}/>
-      <Cskill dataAos="fade-right" dataAosDuration="3600" title="GIT" r1={r1}  r4={r1}  r5={r4}/>
+      <Cskill   title="HTML/5" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="CSS/3 (+ SASS)" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="Tailwind 3.x" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="BootStrap" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="Javascript" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="JQuery" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="React" r1={r1}  r4={r1}  r5={r4}/>
+      <Cskill  title="NodeJS / Express" r1={r1}  r4={r4}  r5={r4}/>
+      <Cskill  title="MySQL" r1={r1}  r4={r1}  r5={r4}/>
+      <Cskill  title="mongoDB" r1={r1}  r4={r1}  r5={r4}/>
+      <Cskill  title="Mongoes" r1={r1}  r4={r4}  r5={r4}/>
+      <Cskill  title="JSON / XML" r1={r1}  r4={r1}  r5={r1}/>
+      <Cskill  title="AWS / Google Cloud" r1={r1}  r4={r4}  r5={r4}/>
+      <Cskill  title="GIT" r1={r1}  r4={r1}  r5={r4}/>
       </>}
       {props.contentTitle==="Languages"
       &&

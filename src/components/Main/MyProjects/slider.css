@@ -1,12 +1,11 @@
 .slider-container {
     margin: auto;
     position: relative;
-    width: 80%;
-    height: 500px;
+    width: 90%;
+    height: 600px;
     overflow: hidden;
     margin-top: 50px;
-    margin-bottom: 50px;
-   
+ 
   }
   
   .slider-item {
